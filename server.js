@@ -11,7 +11,7 @@ const app = express();
 
 // CORS Middleware
 app.use(cors({
-    origin: process.env.NODE_ENV === 'production' ? 'https://your-frontend-url.vercel.app' : 'http://localhost:3000',
+    origin: process.env.NODE_ENV === 'production' ? 'https://sms-frontend-twilio-9ob4.vercel.app/' : 'http://localhost:3000',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type'],
   }));
